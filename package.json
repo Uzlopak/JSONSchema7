@@ -1,8 +1,16 @@
 {
   "name": "jsonschema7",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.8.0",
   "types": "index.ts",
   "author": "Aras Abbasi",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uzlopak/JSONSchema7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Uzlopak/JSONSchema7/issues"
+  },
+  "homepage": "https://github.com/Uzlopak/JSONSchema7#readme",
+  "description": "JSON Schema 7 Typings for Typescript"
 }

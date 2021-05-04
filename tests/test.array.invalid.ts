@@ -15,7 +15,8 @@ const testOnlyArrayItemType: JSONSchema7<string> = {
     type: "string",
     items: {
         type: "string",
-    }
+    },
+    minItems: 1
 }
 
 const testArrayAdditionalItemsSchema: JSONSchema7<string[]> = {

@@ -1,0 +1,1 @@
+# JSON Schema 7 Typings for Typescript
