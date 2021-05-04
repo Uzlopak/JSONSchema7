@@ -1200,7 +1200,9 @@ export interface JSONSchema7Base<T extends { [key: string]: any } | any[] | bool
     JSONSchema7AnyAttributes<T>,
     JSONSchema7Logical<T, Format>,
     JSONSchema7SchemaAnnotations<T>,
-    JSONSchema7NonJSONDataStringEncoding<T> { }
+    JSONSchema7NonJSONDataStringEncoding<T>,
+    JSONSchema7Definitions<Format>,
+    JSONSchema7Meta { }
 
 export type JSONSchema7<T extends { [key: string]: any } | any[] | boolean | string | number | null = never, Format = JSONSchema7DefinedFormats> = [T] extends [never]
     ? JSONSchema7Definition<Format>
