@@ -1,0 +1,8 @@
+{
+  "name": "jsonschema7",
+  "version": "1.0.0",
+  "description": "",
+  "types": "index.ts",
+  "author": "Aras Abbasi",
+  "license": "MIT"
+}
